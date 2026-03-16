@@ -527,7 +527,7 @@ class GlowmarktBrightSensor(SensorEntity):
             # Get readings from exactly 24 hours ago
             # For example, at 3pm on March 16th, fetch data from 3pm March 14th to 3pm March 15th
             to_date = datetime.now() - timedelta(hours=24)
-            from_date = to_date - timedelta(hours=24)
+            from_date = to_date - timedelta(hours=1)
 
             data = self._api_client.get_readings(
                 self._resource_id,
