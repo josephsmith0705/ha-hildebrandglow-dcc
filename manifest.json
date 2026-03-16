@@ -1,0 +1,10 @@
+{
+  "domain": "glowmarkt_bright",
+  "name": "Glowmarkt Bright",
+  "documentation": "https://docs.glowmarkt.com",
+  "requirements": ["requests>=2.31.0"],
+  "codeowners": [],
+  "version": "1.0.0",
+  "iot_class": "cloud_polling",
+  "config_flow": false
+}
