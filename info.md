@@ -21,4 +21,8 @@ sensor:
     password: YOUR_PASSWORD
 ```
 
-Then restart Home Assistant. Your sensors will be automatically discovered
+Then restart Home Assistant. Your sensors will be automatically discovered!
+
+## Need Help?
+
+See the [full documentation](https://github.com/josephsmith0705/ha-hildebrandglow-dcc) for detailed setup instructions and troubleshooting.

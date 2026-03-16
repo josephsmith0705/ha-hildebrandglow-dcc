@@ -115,7 +115,7 @@ This integration uses the Glowmarkt Bright API v0.1:
 
 ## Support
 
-For issues, questions, or feature requests, please open an issue on GitHub.
+For issues, questions, or feature requests, please open an issue on [GitHub](https://github.com/josephsmith0705/ha-hildebrandglow-dcc/issues).
 
 ## Credits
 
