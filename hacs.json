@@ -1,0 +1,7 @@
+{
+  "name": "Hildebrand Glow (DCC) / Glowmarkt Bright",
+  "render_readme": true,
+  "domains": ["glowmarkt_bright"],
+  "iot_class": "Cloud Polling",
+  "homeassistant": "2023.1.0"
+}

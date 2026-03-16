@@ -1,0 +1,13 @@
+{
+  "config": {
+    "title": "Hildebrand Glow (DCC) / Glowmarkt Bright",
+    "description": "Integrate your Hildebrand Glow smart meter data"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Glowmarkt Bright Options"
+      }
+    }
+  }
+}
