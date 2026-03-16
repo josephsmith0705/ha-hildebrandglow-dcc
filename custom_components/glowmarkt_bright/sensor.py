@@ -524,9 +524,9 @@ class GlowmarktBrightSensor(SensorEntity):
     def update(self) -> None:
         """Fetch new state data for the sensor."""
         try:
-            # Get readings for the last 24 hours to build cumulative total
-            # (Energy dashboard needs cumulative values, not individual readings)
-            to_date = datetime.now()
+            # Get readings from exactly 24 hours ago
+            # For example, at 3pm on March 16th, fetch data from 3pm March 14th to 3pm March 15th
+            to_date = datetime.now() - timedelta(hours=24)
             from_date = to_date - timedelta(hours=24)
 
             data = self._api_client.get_readings(
